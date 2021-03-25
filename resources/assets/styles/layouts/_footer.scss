@@ -1,0 +1,41 @@
+footer {
+  margin: 5% 0 0;
+  background: none;
+  color: #dfd3c3;
+  font-size: 25px;
+
+  a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #dfd3c3;
+
+    &:hover {
+      color: #dfd3c3;
+    }
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0 0 4% 10%;
+  }
+
+  .final_bar {
+    margin: 5% 0 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 1% 0;
+    background: #dfd3c3;
+
+    a {
+      text-align: center;
+      color: #171717;
+
+      &:hover {
+        color: #171717;
+      }
+    }
+  }
+}

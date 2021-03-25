@@ -1,0 +1,30 @@
+header {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto 5%;
+  justify-content: space-between;
+
+  a {
+    color: #dfd3c3;
+    margin: 3% 0 0;
+    display: block;
+
+    &:nth-child(2) {
+      cursor: pointer;
+      width: 5%;
+
+      img {
+        width: 55%;
+        margin-left: 50%;
+      }
+    }
+
+    &:nth-child(1) {
+      &:hover {
+        color: #dfd3c3;
+      }
+    }
+  }
+}

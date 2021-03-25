@@ -1,0 +1,81 @@
+.projects {
+  margin: 0% 0 20%;
+  transform: rotateZ(-10deg) scale(1.2);
+}
+
+.project {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.bande {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0;
+  margin: 0;
+  width: 125vw;
+
+  div {
+    width: 25vw;
+  }
+}
+
+.bande:hover {
+  text-decoration: none;
+}
+
+.api-weather {
+  animation: slidein 2s linear infinite;
+  background-color: #df7819;
+  color: white;
+  font-size: 26px;
+
+  img {
+    width: 30%;
+  }
+}
+
+.api-cocktail {
+  background-color: #eb6db4;
+  color: white;
+  font-size: 26px;
+  animation: slidein 2s linear infinite;
+
+  img {
+    width: 30%;
+  }
+}
+
+.showcase-franck {
+  background-color: #ddbe1a;
+  color: white;
+  animation: slideout 2s linear infinite;
+  font-size: 26px;
+
+  img {
+    width: 30%;
+  }
+}
+
+.showcase-cabane {
+  background-color: #dbf8ff;
+  color: #01003f;
+  animation: slideout 2s linear infinite;
+  font-size: 26px;
+
+  img {
+    width: 30%;
+  }
+}
+
+.this-website {
+  background-color: #dfd3c3;
+  color: #171717;
+  animation: slidein 2s linear infinite;
+  font-size: 26px;
+
+  img {
+    width: 30%;
+  }
+}
