@@ -5,6 +5,18 @@ $theme-colors: (
   primary: #525ddc
 );
 
+@keyframes extend {
+  0% {
+    opacity: 1;
+    height: 100vh;
+  }
+
+  100% {
+    opacity: 1;
+    height: 0;
+  }
+}
+
 @keyframes slidein {
   0% {
     transform: translateX(-25vw);

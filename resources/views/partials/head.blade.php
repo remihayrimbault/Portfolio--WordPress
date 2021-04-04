@@ -10,4 +10,4 @@
     @php wp_head() @endphp
   </head>
   <body>
-  <div class="transition is-active"></div>
+  <div class="transition"></div>
